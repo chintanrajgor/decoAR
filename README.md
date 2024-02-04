@@ -1,2 +1,2 @@
 # decoAR
-An Object Visualization App
+An Object Visualisation App
