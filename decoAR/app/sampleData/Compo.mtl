@@ -1,0 +1,58 @@
+# Blender MTL File: 'Compo.blend'
+# Material Count: 7
+
+newmtl Black_Metal
+Ns 143.999983
+Ka 0.200000 0.200000 0.200000
+Kd 0.000804 0.000869 0.001000
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.400000
+d 1.000000
+map_Bump -bm 2.0 Textures\\Noise_Bump.png
+illum 2
+
+newmtl Black_Plastic
+Ns 440.999985
+Ka 1.000000 1.000000 1.000000
+Kd 0.001000 0.001000 0.001000
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.550000
+d 1.000000
+map_Bump -bm 2.0 Textures\\Noise_Bump.png
+illum 2
+
+newmtl Fabric_Beige
+map_Kd Textures\\Fabric_ColorBeige.png
+map_Ks Textures\\Fabric_Specular.png
+Ns 80
+map_Bump -bm 4.0 Textures\\Fabric_Normal.png
+illum 2
+
+newmtl Fabric_Blue
+map_Kd Textures\\Fabric_ColorBlue.png
+map_Ks Textures\\Fabric_Specular.png
+Ns 80
+map_Bump -bm 4.0 Textures\\Fabric_Normal.png
+illum 2
+
+newmtl Fabric_DarkGrey
+map_Kd Textures\\Fabric_ColorDarkGrey.png
+map_Ks Textures\\Fabric_Specular.png
+Ns 80
+map_Bump -bm 4.0 Textures\\Fabric_Normal.png
+illum 2
+
+newmtl Fabric_LightGrey
+map_Kd Textures\\Fabric_ColorLightGrey.png
+map_Ks Textures\\Fabric_Specular.png
+Ns 80
+map_Bump -bm 4.0 Textures\\Fabric_Normal.png
+illum 2
+
+newmtl Mat
+map_Kd Textures\\Mat_Color.png
+map_Ks Textures\\Mat_Specular.png
+Ns 143.999983
+map_Bump Textures\\Noise_Bump.png

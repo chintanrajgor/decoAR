@@ -1,0 +1,69 @@
+{
+  materials: [
+    {
+      name: 'HandleMat',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.1424,
+            0.1424,
+            0.1424,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.093865000000000004,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'WoodBaseMat',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.46999999999999997,
+            0.33000000000000002,
+            0.28000000000000003,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.078326000000000007,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampleData/ShoeRack.obj',
+    name: 'ShoeRack',
+    recenter: 'root',
+    scale: 0.49085600000000001,
+  },
+  version: '0.54:2',
+}

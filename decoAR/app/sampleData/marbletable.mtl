@@ -1,0 +1,24 @@
+# Blender MTL File: 'Marble-coffee-table.blend'
+# Material Count: 2
+
+newmtl CC0Textures/Marble012/2Kjpg
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Abdul Rauf\\Desktop\\materials\\marbles\\textures\\CC0Textures\\Marble012\\2K-JPG\\Marble012_2K_Color.jpg
+map_Ns C:\\Users\\Abdul Rauf\\Desktop\\materials\\marbles\\textures\\CC0Textures\\Marble012\\2K-JPG\\Marble012_2K_Roughness.jpg
+
+newmtl metal
+Ns 650.249991
+Ka 0.904762 0.904762 0.904762
+Kd 0.049549 0.049549 0.049549
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3

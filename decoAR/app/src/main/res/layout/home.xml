@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:background="@drawable/bghome"
+        android:alpha="0.9"
+        />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/darkgray"
+        android:alpha="0.5"
+        />
+    <!--            <ImageView-->
+    <!--                android:id="@+id/imageView4"-->
+    <!--                android:layout_width="101dp"-->
+    <!--                android:layout_height="112dp"-->
+    <!--                app:layout_constraintStart_toStartOf="parent"-->
+    <!--                app:layout_constraintTop_toTopOf="parent"-->
+    <!--                app:srcCompat="@drawable/logo" />-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="351dp"
+            android:layout_height="94dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/alegreya"
+            android:gravity="center"
+            android:shadowColor="@color/darkgray"
+
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="5"
+            android:text="Home"
+            android:textColor="@color/lightgray"
+            android:textSize="40dp" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="351dp"
+            android:layout_height="94dp"
+            android:layout_marginBottom="40dp"
+            android:fontFamily="@font/alegreya"
+            android:gravity="center"
+            android:shadowColor="@color/darkgray"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="5"
+            android:text="Select area to be decorated."
+            android:textColor="@color/lightgray"
+            android:textSize="32dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/livingroom"
+                android:layout_width="150dp"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@drawable/mybutton"
+                android:fontFamily="@font/alegreya"
+                android:text="Living Room"
+                android:textColor="#2C423F"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/kitchen" />
+
+            <Button
+                android:id="@+id/bedroom"
+                android:layout_width="150dp"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@drawable/mybutton"
+                android:fontFamily="@font/alegreya"
+                android:text="Bedroom"
+                android:textColor="#2C423F"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/kitchen"
+                android:layout_width="150dp"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@drawable/mybutton"
+                android:fontFamily="@font/alegreya"
+                android:text="Kitchen"
+                android:textColor="#2C423F"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/gallery" />
+
+            <Button
+                android:id="@+id/hall"
+                android:layout_width="150dp"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@drawable/mybutton"
+                android:fontFamily="@font/alegreya"
+                android:text="Hall"
+                android:textColor="#2C423F"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/customh" />
+
+        </LinearLayout>
+
+        <!--            <com.google.android.material.imageview.ShapeableImageView-->
+        <!--                android:layout_width="85dp"-->
+        <!--                android:layout_height="90dp"-->
+        <!--                android:layout_margin="10dp"-->
+        <!--                android:padding="2dp"-->
+        <!--                android:src="@drawable/decoar"-->
+        <!--                app:layout_constraintStart_toStartOf="parent"-->
+        <!--                app:layout_constraintTop_toTopOf="parent"-->
+        <!--                app:shapeAppearanceOverlay="@style/circleImageView"-->
+        <!--                app:strokeColor="#2e675e"-->
+        <!--                app:strokeWidth="5dp" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/gallery"
+                android:layout_width="150dp"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@drawable/mybutton"
+                android:fontFamily="@font/alegreya"
+                android:text="Gallery"
+                android:textColor="#2C423F"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/hall" />
+
+            <Button
+                android:id="@+id/customh"
+                android:layout_width="150dp"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@drawable/mybutton"
+                android:fontFamily="@font/alegreya"
+                android:text="Custom"
+                android:textColor="#2C423F"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bedroom" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

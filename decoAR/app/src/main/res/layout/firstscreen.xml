@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:fontFamily="@font/alegreya"
+    android:layout_height="match_parent"
+    android:gravity="center|top">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.7"
+        android:background="@drawable/bgimg"
+        android:scaleType="centerCrop" />
+<!--    <com.google.android.material.imageview.ShapeableImageView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="156dp"-->
+<!--        android:gravity="top"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        android:src="@drawable/decoari"-->
+<!--        app:strokeWidth="0dp" />-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/darkgray"
+        android:alpha="0.5"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="351dp"
+            android:layout_height="94dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/alegreya"
+            android:gravity="center"
+            android:shadowColor="@color/darkgray"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="5"
+            android:text="Welcome"
+            android:textColor="@color/lightgray"
+            android:textSize="40dp" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="351dp"
+            android:layout_height="94dp"
+            android:layout_marginBottom="40dp"
+            android:fontFamily="@font/alegreya"
+            android:gravity="center"
+            android:shadowColor="@color/darkgray"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="5"
+            android:text="Choose your place to decorate."
+            android:textColor="@color/lightgray"
+            android:textSize="32dp" />
+
+        <Button
+            android:id="@+id/Homebtn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/mybutton"
+            android:fontFamily="@font/alegreya"
+            android:gravity="center"
+            android:text="Home"
+            android:textColor="#2C423F"
+            tools:layout_conversion_absoluteHeight="60dp"
+            tools:layout_conversion_absoluteWidth="180dp"
+            tools:layout_editor_absoluteX="465dp"
+            tools:layout_editor_absoluteY="100dp" />
+
+        <Button
+            android:id="@+id/Officebtn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/mybutton"
+            android:fontFamily="@font/alegreya"
+            android:text="Office"
+            android:textColor="#2C423F"
+            tools:layout_conversion_absoluteHeight="60dp"
+            tools:layout_conversion_absoluteWidth="180dp"
+            tools:layout_editor_absoluteX="285dp"
+            tools:layout_editor_absoluteY="20dp" />
+
+        <Button
+            android:id="@+id/Schoolbtn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/mybutton"
+            android:fontFamily="@font/alegreya"
+            android:text="School"
+            android:textColor="#2C423F"
+            tools:layout_conversion_absoluteHeight="60dp"
+            tools:layout_conversion_absoluteWidth="180dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="20dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
